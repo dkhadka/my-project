@@ -21,7 +21,7 @@ jobs:
             repository: dkhadka/Test_Sa
             ref: main
             path: Test_Sa
-            token: ${{ secrets.ACCESS_TOKEN }}
+            repo-token: ${{ secrets.ACCESS_TOKEN }}
             
             
 
