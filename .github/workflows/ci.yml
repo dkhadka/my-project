@@ -19,6 +19,7 @@ jobs:
         - uses: actions/checkout@v2
           with:
             repository: dkhadka/Test_Sa
+            ref: main
             path: Test_Sa
             
             
