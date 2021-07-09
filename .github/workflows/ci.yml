@@ -17,19 +17,20 @@ jobs:
     steps:
         - uses: actions/checkout@v2
         - uses: actions/checkout@v2
-            with:
+          with:
             repository: AAInternal/Test_Sa
+            
             
 
         - name: Set up JDK 1.8
-        uses: actions/setup-java@v1
-        with:
+          uses: actions/setup-java@v1
+          with:
             java-version: 1.8
 
         - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
+          run: chmod +x gradlew
 
         - name: Build with Gradle
-        run: ./gradlew build
+          run: ./gradlew build
 
          
